@@ -1100,10 +1100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  groundDrag: 5
-  jumpForce: 5
+  groundDrag: 8
+  jumpForce: 4
   jumpCooldown: 0.25
-  airMultiplier: 0.4
+  airMultiplier: 0.3
   walkSpeed: 0
   sprintSpeed: 0
   jumpKey: 32
