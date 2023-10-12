@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2213.4915, g: 2185.0764, b: 1715.6487, a: 1}
+  m_IndirectSpecularColor: {r: 2019.5852, g: 1978.9475, b: 1534.5587, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 4b557e1d9de584b4cb60e567803f7806, type: 2}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 4c5a3b7795171b04fbdbab2d570076a4, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: d41ee226af778aa4aa1a6232e1ef5aee, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4592,7 +4592,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376561359}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.27049097, y: -0, z: -0, w: 0.96272254}
   m_LocalPosition: {x: -149.07101, y: 2.7107606, z: -36.722996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4600,7 +4600,7 @@ Transform:
   - {fileID: 1997177177}
   - {fileID: 1712478978}
   m_Father: {fileID: 1826783041}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 31.387, y: 0, z: 0}
 --- !u!1 &382906592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea226c3ad571a0646b5cf08c2dc7fbfa, type: 3}
@@ -12039,7 +12039,7 @@ Terrain:
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
+  m_ShadowCastingMode: 1
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
@@ -12050,7 +12050,7 @@ Terrain:
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
-  m_ReceiveGI: 1
+  m_ReceiveGI: 2
   m_ScaleInLightmap: 0.0256
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
@@ -12404,6 +12404,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 58e56545a2d219944b78729eaa444a51, type: 3}
   m_PrefabInstance: {fileID: 1100300099}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1108314391
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108314393}
+  - component: {fileID: 1108314392}
+  m_Layer: 0
+  m_Name: StaticLightingSky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1108314392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108314391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Profile: {fileID: 11400000, guid: 0c0f7df5b84c3494a9706253fc688a27, type: 2}
+  m_StaticLightingSkyUniqueID: 4
+  m_StaticLightingCloudsUniqueID: 0
+  m_StaticLightingVolumetricClouds: 0
+--- !u!4 &1108314393
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108314391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1108509250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17062,13 +17110,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712478976}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.004264762, y: -0.9856532, z: 0.102061644, w: 0.13436161}
-  m_LocalPosition: {x: 0, y: 1.6499996, z: 0}
+  m_LocalRotation: {x: 0.038175806, y: -0.9276124, z: 0.34851667, w: 0.12889467}
+  m_LocalPosition: {x: 0, y: 1.6499993, z: -0.000000834465}
   m_LocalScale: {x: 0.9938522, y: 0.8564249, z: 1.2153628}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 376561360}
-  m_LocalEulerAnglesHint: {x: 11.674, y: -164.361, z: 1.113}
+  m_LocalEulerAnglesHint: {x: 41.027, y: -163.638, z: 1.445}
 --- !u!114 &1712478979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17143,7 +17191,7 @@ MonoBehaviour:
   m_ShadowResolution:
     m_Override: 512
     m_UseOverride: 0
-    m_Level: 3
+    m_Level: 2
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 10000
@@ -21536,3 +21584,4 @@ SceneRoots:
   - {fileID: 539152493}
   - {fileID: 853841066}
   - {fileID: 871059031}
+  - {fileID: 1108314393}
