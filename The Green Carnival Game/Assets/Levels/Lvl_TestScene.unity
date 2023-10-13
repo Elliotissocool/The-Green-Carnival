@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2451.193, g: 2180.431, b: 1308.7306, a: 1}
+  m_IndirectSpecularColor: {r: 3109.8774, g: 1965.5188, b: 1018.8165, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &132332323 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-  m_PrefabInstance: {fileID: 2056672220}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &312350971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,7 +1019,7 @@ GameObject:
   - component: {fileID: 1738390226}
   - component: {fileID: 1738390225}
   - component: {fileID: 1738390224}
-  - component: {fileID: 1738390223}
+  - component: {fileID: 1738390227}
   m_Layer: 0
   m_Name: PopUp
   m_TagString: Untagged
@@ -1032,20 +1027,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1738390223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738390222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcf2d2892995e0744b75637baef28ca6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 132332323}
-  showOnDistance: 3
 --- !u!114 &1738390224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,7 +1110,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 5.8097806, y: 0, z: 6.1056495, w: 0}
+  m_margin: {x: 5.8097806, y: 0, z: 6.1056495, w: -0.35936117}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -1199,6 +1180,27 @@ RectTransform:
   m_AnchoredPosition: {x: -0.62, y: 2.62}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!135 &1738390227
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738390222}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.729115
+  m_Center: {x: -0.17034078, y: -0.018940687, z: -0.37754536}
 --- !u!1 &1964030662
 GameObject:
   m_ObjectHideFlags: 0
