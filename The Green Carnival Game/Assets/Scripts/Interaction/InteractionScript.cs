@@ -6,7 +6,7 @@ public class PickUpController : MonoBehaviour
 {
     [Header("Pickup Settings")]
     [SerializeField] Transform holdArea;
-    private GameObject heldObj;
+    public GameObject HeldObject { get; private set; } // Expose the currently held object
     private Rigidbody heldObjRB;
 
     [Header("Physics Parameters")]
@@ -17,7 +17,7 @@ public class PickUpController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (heldObj == null)
+            if (HeldObject == null)
             {
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
@@ -30,7 +30,7 @@ public class PickUpController : MonoBehaviour
                 DropObject();
             }
         }
-        if (heldObj != null)
+        if (HeldObject != null)
         {
             MoveObject();
         }
@@ -38,12 +38,13 @@ public class PickUpController : MonoBehaviour
 
     void MoveObject()
     {
-        if (Vector3.Distance(heldObj.transform.position, holdArea.position) > 0.1f)
+        if (Vector3.Distance(HeldObject.transform.position, holdArea.position) > 0.1f)
         {
-            Vector3 moveDirection = (holdArea.position - heldObj.transform.position);
+            Vector3 moveDirection = (holdArea.position - HeldObject.transform.position);
             heldObjRB.AddForce(moveDirection * pickupForce);
         }
     }
+
     void PickupObject(GameObject pickObj)
     {
         if (pickObj.GetComponent<Rigidbody>())
@@ -54,19 +55,17 @@ public class PickUpController : MonoBehaviour
             heldObjRB.constraints = RigidbodyConstraints.FreezeRotation;
 
             heldObjRB.transform.parent = holdArea;
-            heldObj = pickObj;
+            HeldObject = pickObj; // Set the currently held object
         }
     }
+
     void DropObject()
     {
-
-
         heldObjRB.useGravity = true;
         heldObjRB.drag = 1;
         heldObjRB.constraints = RigidbodyConstraints.None;
 
-        heldObj.transform.parent = null;
-        heldObj = null;
-
+        heldObjRB.transform.parent = null;
+        HeldObject = null; // Reset the currently held object
     }
 }
