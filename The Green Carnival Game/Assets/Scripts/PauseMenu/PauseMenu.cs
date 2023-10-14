@@ -45,9 +45,9 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
     }
 
-    public void LoadSettings()
+    public void QuitGame()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("Lvl_Settings");
+        Debug.Log("Quitting game...");
+        Application.Quit();
     }
 }

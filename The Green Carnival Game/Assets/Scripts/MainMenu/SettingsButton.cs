@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SettingsButton : MonoBehaviour
+public class CreditsButton : MonoBehaviour
 {
-    public void Settings()
+    public void Credits()
     {
         // Load your game scene
-        SceneManager.LoadScene("Lvl_Settings"); // Replace "GameScene" with your actual game scene name
+        SceneManager.LoadScene("Lvl_Credits"); // Replace "GameScene" with your actual game scene name
     }
 }
 
