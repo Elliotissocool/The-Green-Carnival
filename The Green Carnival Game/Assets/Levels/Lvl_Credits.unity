@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 6444.5293, g: 3832.7544, b: 2125.34, a: 1}
+  m_IndirectSpecularColor: {r: 6704.3887, g: 4122.057, b: 2534.7542, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1021,8 +1021,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Elliot Crisp: Creative Director, Programmer, Level Designer\n\nMackeen
-    Safi: Level Designer, SFX Artist\n\nSam Crossland: 3D Artist \n\nSaja Abdoulmawla:
-    3D Artist\n\nArad Elkayam: Sound Designer, Narrative Lead"
+    Safi: Level Designer, VFX Artist\n\nSam Crossland: 3D Artist \n\nSaja Abdoulmawla:
+    3D Artist\n\nArad Elkayam: SFX Artist, Narrative Lead"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
