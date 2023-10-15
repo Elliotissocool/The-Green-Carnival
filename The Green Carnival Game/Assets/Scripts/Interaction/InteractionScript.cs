@@ -16,6 +16,8 @@ public class PickUpController : MonoBehaviour
     [SerializeField] GameObject ticketPrefab; // Assign the ticket prefab in the Inspector.
     [SerializeField] string correctTag = "CorrectObj"; // Set the correct tag.
 
+    [SerializeField] Transform ticketSpawnPoint; // Reference to the spawn point empty GameObject.
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -67,8 +69,8 @@ public class PickUpController : MonoBehaviour
         if (HeldObject.CompareTag(correctTag))
         {
             // The correct object has been dropped on the target.
-            // Instantiate the ticket object.
-            Instantiate(ticketPrefab, HeldObject.transform.position, Quaternion.identity);
+            // Instantiate the ticket object at the spawn point.
+            Instantiate(ticketPrefab, ticketSpawnPoint.position, Quaternion.identity);
         }
 
         heldObjRB.useGravity = true;
