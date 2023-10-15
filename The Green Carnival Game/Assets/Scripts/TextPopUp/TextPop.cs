@@ -1,25 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TextController : MonoBehaviour
 {
-    public GameObject textObject; // Reference to the 3D text GameObject.
+    // Reference to your text object
+    public GameObject textObject;
 
     private void Start()
     {
-        // Initially hide the 3D text.
+        // Initially, hide the text
         textObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Assuming the player has a "Player" tag.
+        if (other.CompareTag("Player"))
         {
-            // Show the 3D text when the player enters the trigger area.
+            // Show the text when the player enters the collider
             textObject.SetActive(true);
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
