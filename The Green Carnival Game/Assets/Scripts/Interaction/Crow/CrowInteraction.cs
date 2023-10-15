@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CrowInteraction : MonoBehaviour
 {
-    [SerializeField] GameObject ticketPrefab; // The prefab of the ticket model
-    [SerializeField] string correctItemTag = "TicketObject"; // Tag of the correct item
+    [SerializeField] GameObject ticketPrefab; // The prefab of the ticket model.
+    [SerializeField] string correctObjectName = "TicketObject"; // Name of the correct object.
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,9 +13,10 @@ public class CrowInteraction : MonoBehaviour
         {
             PickUpController playerController = other.GetComponent<PickUpController>();
             if (playerController != null && playerController.HeldObject != null &&
-                playerController.HeldObject.CompareTag(correctItemTag))
+                playerController.HeldObject.name == correctObjectName)
             {
-                // The player has dropped the correct item, spawn the ticket
+                Debug.Log("Player entered the trigger zone.");
+                // The player has dropped the correct item, spawn the ticket.
                 Instantiate(ticketPrefab, transform.position, Quaternion.identity);
             }
         }
