@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 4
   m_SubtractiveShadowColor: {r: 0, g: 0.6911516, b: 1, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -30539,6 +30539,8 @@ MonoBehaviour:
   holdArea: {fileID: 1296611315}
   pickupRange: 5
   pickupForce: 150
+  ticketPrefab: {fileID: 919132149155446097, guid: 64967409e92dc9340a12b3d972f46ed6, type: 3}
+  correctTag: CorrectObj
 --- !u!114 &1501322477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36739,9 +36741,9 @@ GameObject:
   - component: {fileID: 1852341494}
   - component: {fileID: 1852341493}
   - component: {fileID: 1852341492}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TicketObject
-  m_TagString: SoundTriggerObject
+  m_TagString: CorrectObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
