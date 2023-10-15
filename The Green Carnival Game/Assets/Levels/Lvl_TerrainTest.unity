@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 6271.374, g: 4021.6997, b: 2502.1877, a: 1}
+  m_IndirectSpecularColor: {r: 6272.8115, g: 4024.1372, b: 2506.094, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3768,7 +3768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 193.85
+      value: 197.97
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3780,19 +3780,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.4378543
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.4378543
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.55523294
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.55523294
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3804,7 +3804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 256.518
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8e7adddbb425c534394ff30a1d71bf94, type: 3}
       propertyPath: m_Name
@@ -29837,8 +29837,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.056216385
-  m_Center: {x: -0.02573939, y: 0.036045212, z: 0.01791184}
+  m_Radius: 0.039740294
+  m_Center: {x: 0.025195267, y: 0.03604522, z: 0.01791184}
 --- !u!1001 &1462000214
 PrefabInstance:
   m_ObjectHideFlags: 0

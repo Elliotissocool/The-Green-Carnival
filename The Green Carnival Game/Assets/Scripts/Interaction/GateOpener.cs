@@ -6,7 +6,7 @@ public class GateOpener : MonoBehaviour
 {
     public string ticketTag = "Ticket"; // Tag for the ticket object.
     public Transform gateTransform; // Reference to the gate's Transform.
-    public float openAngle = 90.0f; // Angle by which the gate should open.
+    public float openAngle = 70.0f; // Angle by which the gate should open.
 
     private bool isOpen = false;
 
@@ -21,10 +21,11 @@ public class GateOpener : MonoBehaviour
 
     private void OpenGate()
     {
-        // Rotate the gate to open it.
-        gateTransform.Rotate(Vector3.up, openAngle);
+        // Rotate the gate to open it around the local Z-axis.
+        gateTransform.Rotate(Vector3.forward, openAngle);
         isOpen = true;
-
-        // You can also play a gate opening sound or trigger any other effects here.
     }
+
+    // You can also play a gate opening sound or trigger any other effects here.
 }
+
