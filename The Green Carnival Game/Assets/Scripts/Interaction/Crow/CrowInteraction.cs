@@ -5,20 +5,19 @@ using UnityEngine;
 public class CrowInteraction : MonoBehaviour
 {
     [SerializeField] GameObject ticketPrefab; // The prefab of the ticket model.
-    [SerializeField] string correctObjectName = "TicketObject"; // Name of the correct object.
+    [SerializeField] string correctObjectTag = "CorrectObj"; // Tag of the correct object.
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        // Check if the player dropped the correct item at the crow's feet based on its tag.
+        if (other.CompareTag(correctObjectTag))
         {
-            PickUpController playerController = other.GetComponent<PickUpController>();
-            if (playerController != null && playerController.HeldObject != null &&
-                playerController.HeldObject.name == correctObjectName)
-            {
-                Debug.Log("Player entered the trigger zone.");
-                // The player has dropped the correct item, spawn the ticket.
-                Instantiate(ticketPrefab, transform.position, Quaternion.identity);
-            }
+            Debug.Log("Correct object dropped at the crow's feet.");
+            // The correct object has been dropped, spawn the ticket.
+            Instantiate(ticketPrefab, transform.position, Quaternion.identity);
+
+            // Optionally, you can destroy the correct object after spawning the ticket.
+            Destroy(other.gameObject);
         }
     }
 }
