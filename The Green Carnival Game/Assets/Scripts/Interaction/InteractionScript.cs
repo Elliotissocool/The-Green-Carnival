@@ -13,6 +13,9 @@ public class PickUpController : MonoBehaviour
     [SerializeField] private float pickupRange = 5.0f;
     [SerializeField] private float pickupForce = 150.0f;
 
+    [SerializeField] GameObject ticketPrefab; // Assign the ticket prefab in the Inspector.
+    [SerializeField] string correctTag = "CorrectObj"; // Set the correct tag.
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -61,6 +64,13 @@ public class PickUpController : MonoBehaviour
 
     void DropObject()
     {
+        if (HeldObject.CompareTag(correctTag))
+        {
+            // The correct object has been dropped on the target.
+            // Instantiate the ticket object.
+            Instantiate(ticketPrefab, HeldObject.transform.position, Quaternion.identity);
+        }
+
         heldObjRB.useGravity = true;
         heldObjRB.drag = 1;
         heldObjRB.constraints = RigidbodyConstraints.None;
