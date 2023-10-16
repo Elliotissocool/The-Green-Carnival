@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2407.467, g: 1520.6154, b: 760.9654, a: 1}
+  m_IndirectSpecularColor: {r: 2424.097, g: 1534.589, b: 770.4166, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7085,10 +7085,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "June 28th\n I\u2019ve been chastised by her once again. Why must she chide
-    me so? I spread word of our carnival to the children and entice them with calls
-    of fantastical fun times. She must understand that my job is one of tumultuous
-    roaring!"
+  m_text: 'July 6th
+
+    I hold my form and soar through the air. The people below
+    me look up in revere. I am Fen the Aerialist as all onlookers see. Yet I feel
+    that one pair of eyes threatens me.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
@@ -8725,10 +8726,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "June 28th\n I\u2019ve been chastised by her once again. Why must she chide
-    me so? I spread word of our carnival to the children and entice them with calls
-    of fantastical fun times. She must understand that my job is one of tumultuous
-    roaring!"
+  m_text: "July 12th \nI was Gusteau, the One-man band, who hadn\u2019t planned,
+    for her demand. She tore the songs out of my throat. I can't remember what I\u2026
+    said. Where did my music go?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
@@ -8791,7 +8791,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.682128, y: 2.2394168, z: 7.506469, w: 0}
+  m_margin: {x: 8.628359, y: 2.2394168, z: 7.506469, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -14795,10 +14795,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "June 28th\n I\u2019ve been chastised by her once again. Why must she chide
-    me so? I spread word of our carnival to the children and entice them with calls
-    of fantastical fun times. She must understand that my job is one of tumultuous
-    roaring!"
+  m_text: "July 5th \nI am Gusteau, the One-man band, the handiest man in the land.
+    I sing a song, then strum along, and drum a little on my gong. Countess Leflair
+    is in my hair about my choices in fanfare. She says \u201Cpraise me\u201D she
+    must be crazy, her ego does amaze me."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
@@ -25188,7 +25188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5fb44b12d5f53c47be0660d4e777447, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -164.8827
+      value: -163.95
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5fb44b12d5f53c47be0660d4e777447, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25196,7 +25196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5fb44b12d5f53c47be0660d4e777447, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 162.92097
+      value: 162.64
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5fb44b12d5f53c47be0660d4e777447, type: 3}
       propertyPath: m_LocalRotation.w
@@ -37959,10 +37959,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "June 28th\n I\u2019ve been chastised by her once again. Why must she chide
-    me so? I spread word of our carnival to the children and entice them with calls
-    of fantastical fun times. She must understand that my job is one of tumultuous
-    roaring!"
+  m_text: 'July 15th
+
+    It will soon be over for me I fear. The Countess has snapped;
+    I see her shadow grow across the hills as she rushes towards me. I hear her shouting
+    behind me as I run. Wait, my hat!
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
@@ -38133,10 +38136,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "June 28th\n I\u2019ve been chastised by her once again. Why must she chide
-    me so? I spread word of our carnival to the children and entice them with calls
-    of fantastical fun times. She must understand that my job is one of tumultuous
-    roaring!"
+  m_text: "July 17th \nIt was Greene Leflair who put me in this place. I can hear
+    the joyous sounds of guests just beyond the briar walls. They cannot see me.
+    She made sure of it. So now I sit, silent and alone.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
@@ -38199,7 +38201,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.682128, y: 2.2394168, z: 7.506469, w: 0}
+  m_margin: {x: 8.682128, y: 2.2394168, z: 7.5824623, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -38257,16 +38259,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676271579}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0601}
+  m_LocalRotation: {x: 0.70633364, y: 0.033059064, z: 0.033059094, w: 0.7063335}
+  m_LocalPosition: {x: 0, y: 0, z: 0.060100004}
   m_LocalScale: {x: 0.023503417, y: 0.023503423, z: 0.023503423}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 699739474}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 84.641, y: 90, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0124, y: -0.0063}
+  m_AnchoredPosition: {x: -0.012339813, y: -0.007585355}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1693327635
@@ -39884,10 +39886,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "June 28th\n I\u2019ve been chastised by her once again. Why must she chide
-    me so? I spread word of our carnival to the children and entice them with calls
-    of fantastical fun times. She must understand that my job is one of tumultuous
-    roaring!"
+  m_text: "July 16th \nI hold myself together with all my might. Yet bit by bit I
+    slip further from their sight. My body once was viewed on high. Now no one sees
+    me in the sky. The Countess rules a rein so cruel. Merit and I were played for
+    fools.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
@@ -41478,10 +41480,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "June 28th\n I\u2019ve been chastised by her once again. Why must she chide
-    me so? I spread word of our carnival to the children and entice them with calls
-    of fantastical fun times. She must understand that my job is one of tumultuous
-    roaring!"
+  m_text: "June 30th \nAbraham is my name, but yet have I to speak it. Today\u2019s
+    acts of visual splendor are at the top of my comedic game. It does seem like
+    my newest subject of ridicule may have been unwise.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
   m_sharedMaterial: {fileID: 2865863927944070276, guid: 4ac0a737556abe64b993f6c2a4e17780, type: 2}
@@ -41544,7 +41545,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.682128, y: 2.2394168, z: 7.506469, w: 0}
+  m_margin: {x: 8.633026, y: 2.2394168, z: 7.506469, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -41611,7 +41612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0124, y: -0.0063}
+  m_AnchoredPosition: {x: -0.0158, y: 0.002}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1824707059
