@@ -7,6 +7,11 @@ TagManager:
   - SoundTriggerObject
   - CorrectObj
   - Ticket
+  - Record1
+  - Record2
+  - Record3
+  - Record4
+  - Jukebox
   layers:
   - Default
   - TransparentFX
